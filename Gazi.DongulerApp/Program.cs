@@ -624,7 +624,7 @@ namespace Gazi.DongulerApp
 
 
 
-            //aşağıdaki kodları internetten aldım:
+            
             Random rdn = new Random();
             int tahmin, sayi = rdn.Next(0, 100);
             int hak = 5;
