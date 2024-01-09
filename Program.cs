@@ -105,7 +105,7 @@
                 int randomNumber;
                 do
                 {
-                    randomNumber = rnd.Next(100);
+                    randomNumber = rnd.Next(1000);
                 } while (Array.IndexOf(numbers, randomNumber) != -1);
 
                 numbers[i] = randomNumber;
